@@ -21,9 +21,7 @@ function  SignupStudent() {
       <div className="overlay" />
 
       {/* Header */}
-      <div className="header-wrapper">
-        <SeamsHeader />
-      </div>
+      <SeamsHeader />
 
       {/* Signup card */}
       <div className="app-signup-wrapper">
