@@ -1,0 +1,12 @@
+.about-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+/* UCC Logo */
+.seams-logo {
+  height: 100px;
+  width: auto;
+  flex-shrink: 0;
+}

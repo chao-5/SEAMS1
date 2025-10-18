@@ -1,7 +1,8 @@
-
 import React, {useEffect} from "react";
 import { Container, Button, Image } from "react-bootstrap";
 import UserNavbar from "./UserNavbar";
+import ucclogo from "./assets/seamsucc.png";
+import "./AboutUs.css";
 
 function About() {
   useEffect(() => {
@@ -13,9 +14,12 @@ function About() {
       <UserNavbar />
 
       <main className="py-5 text-center container">
-        <h1 className="fw-bold">
+        <div className="about-top">
+        <img src={ucclogo} alt="UCC Logo" className="seams-logo" />
+        <h1 className="about-title fw-bold">
           About <span className="text-success">SEAMS</span>
         </h1>
+        </div>
         <p className="mt-3 mx-auto" style={{ maxWidth: "800px" }}>
           The School Event and Activity Management System (SEAMS) is a web-based platform 
           designed to streamline the planning and organization of school events. It helps 
