@@ -3,6 +3,7 @@ import { Container, Button, Image } from "react-bootstrap";
 import UserNavbar from "./UserNavbar";
 import ucclogo from "./assets/seamsucc.png";
 import "./AboutUs.css";
+import Footer from "./Footer";
 
 function About() {
   useEffect(() => {
@@ -51,6 +52,8 @@ function About() {
           Contact Us
         </Button>
       </Container>
+       {/* Footer */}
+      <Footer />
     </div>
   );
 }

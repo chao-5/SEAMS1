@@ -16,6 +16,7 @@ import Footer from "./Footer";
 import VerifyEmail from "./VerifyEmail";
 import SignupSuccess from "./SignupSuccess";
 import CompleteSignup from "./CompleteSignup";
+import StudentProfile from "./StudentProfile";
 
 // Home component
 function Home() {
@@ -59,10 +60,11 @@ function App() {
         <Route path="/verifyemail" element={<VerifyEmail />} />
         <Route path="/signup-success" element={<SignupSuccess />} />
         <Route path="/complete-signup" element={<CompleteSignup />} />
+        <Route path="/profile" element={<StudentProfile />} />
       </Routes>
+      <Footer />
     </Router>
   );
-  
-  <Footer />;
 }
+
 export default App;
